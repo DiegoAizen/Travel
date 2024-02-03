@@ -1,0 +1,95 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "The wild island of Tasmania, Australia",
+            "imageUrl": "/assets/images/tasmania.jpg",
+            "description": "The easiest way to get there is by plane from the cities of Melbourne or Sydney. Plane tickets are not expensive at all and it takes less than 2 hours from Sydney."
+          },
+          {
+            "name": "The Daintree Rainforest, Australia",
+            "imageUrl": "/assets/images/daintre.jpg",
+            "description": "It is estimated that it is about 180 million years old, making it the oldest on the entire planet... several million older than the Amazon itself!."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "NAGANO Hakuba, Japan",
+            "imageUrl": "/assets/images/hakuba.jpg",
+            "description": "This world-class resort in Nagano's Northern Alps welcomes powder enthusiasts from around the globe during the winter, as well as in the summer, when it transforms into an outdoor sports wonderland during the warmer months."
+          },
+          {
+            "name": "Mt Fuji, Japan",
+            "imageUrl": "/assets/images/fuji.jpg",
+            "description": "Climbing Mt. Fuji was once viewed as a religious pilgrimage to honor the spirit of what is one of the most beautiful and iconic peaks on the planet. An endeavor famed for its natural beauty and cultural significance, getting to the top of Mt. Fuji is an experience unlike any other."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Amazon Forest, Brazil",
+            "imageUrl": "/assets/images/Amazon.jpg",
+            "description": "Experience the unique and breathtaking nature and amazing variety of flora and fauna in the Amazon and the Pantanal in Brazil. On many different excursions you will explore the equatorial rainforest and one of the largest wetlands on earth by boat, jeep, and on foot."
+          },
+          {
+            "name": "Lencois Maranhenses National Park, Brazil",
+            "imageUrl": "/assets/images/Maranhenses.jpg",
+            "description": "Visit one of the natural highlights of Brazil: the worldwide unique landscape of Lencois Maranhenses National Park. The wavy sand dunes spread like an endless bed sheet and give the region its name."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia, temples",
+        "imageUrl": "/assets/images/angkor.jpg",
+        "description": "The city of Angkor served as the royal centre from which a dynasty of Khmer kings ruled one of the largest, most prosperous, and most sophisticated kingdoms in the history of Southeast Asia.."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India, temples",
+        "imageUrl": "/assets/images/Taj.jpg",
+        "description": "It is the crowning work of Mughal architecture and is considered among the most beautiful buildings in the world, which is why it has been chosen as one of the new seven wonders of the world."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia, beaches",
+        "imageUrl": "/assets/images/bora.jpg",
+        "description": "It seems too good to be true but the answer is yes.  You won't find endless kilometers of uninterrupted public beaches in Bora Bora, but you will find little slices of sandy heaven – almost always attached to a resort – scattered all around the main island and the motu (islets) dotted around the lagoon.."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, beaches",
+        "imageUrl": "/assets/images/Copacabana.jpg",
+        "description": "The rowdy Copacabana is one of the most traditional and old areas from Rio de Janeiro. This neighbourhood is a blend of Brazilian soul - crowded, rowdy and traditional.."
+      }
+    ], 
+    "Recomendation": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia,  (Recomendation)",
+        "imageUrl": "/assets/images/bora.jpg",
+        "description": "It seems too good to be true but the answer is yes.  You won't find endless kilometers of uninterrupted public beaches in Bora Bora, but you will find little slices of sandy heaven – almost always attached to a resort – scattered all around the main island and the motu (islets) dotted around the lagoon.."
+      },
+      {
+        "id": 2,
+          "name": "Mt Fuji,  (Recomendation)",
+          "imageUrl": "/assets/images/fuji.jpg",
+          "description": "Climbing Mt. Fuji was once viewed as a religious pilgrimage to honor the spirit of what is one of the most beautiful and iconic peaks on the planet. An endeavor famed for its natural beauty and cultural significance, getting to the top of Mt. Fuji is an experience unlike any other."
+        }
+    ]
+  }
+  
