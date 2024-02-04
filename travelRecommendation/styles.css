@@ -30,25 +30,36 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
-    z-index: 1; /* Asegúrate de que este z-index mantenga este elemento detrás del contenido */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
-.TeamDetalle .TitleText {
+.abotuColumn {
     flex-direction: column;
-align-items: start;
-text-align: start;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+}
 
-}
-.columndetails {
-    background-color: #673B8D;
+.abotuColumns {
     flex-direction: column;
-    display: flexbox;
+    background-color: #eb6363;
+    height: 100px;
 }
+
+.aboutRow {
+    background-color: #ffffff;
+    height: 200px;
+    width: 200px;
+    flex-direction: row;
+    display: block;
+}
+
 .TeamDetalles {
     flex-direction: row;
-  display: flex;
-  background-color: #666;
+    display: flex;
+    background-color: #666;
 }
 
 .Overlay {
@@ -67,8 +78,8 @@ text-align: start;
 
 .SocialMediaIcons {
     display: flex;
-    flex-direction: column; /* Alinea los ítems en columna */
-    align-items: center; /* Centra los ítems horizontalmente */
+    flex-direction: column;
+    align-items: center;
 }
 
 .SocialMediaIcons i {
@@ -81,6 +92,7 @@ text-align: start;
 .SocialMediaIcons i:hover {
     color: #673B8D;
 }
+
 .TitleTextabout {
     text-align: start;
     max-width: 800px;
@@ -91,7 +103,9 @@ text-align: start;
     text-align: start;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 250px;
 }
+
 .TitleText span {
     color: #ffffff;
     font-weight: bold;
@@ -122,21 +136,26 @@ text-align: start;
     border-radius: 5px;
     font-weight: bold;
 }
+
 .TitleText button:hover {
     background-color: white;
     color: black;
 
 }
 
-/* Añade media queries para ajustar el tamaño del texto y los elementos en pantallas más pequeñas */
+
+
 @media (max-width: 768px) {
     .MainTitle {
-        font-size: 2em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        font-size: 2em;
+        /* Tamaño de fuente más pequeño para pantallas pequeñas */
     }
 
     .Description {
-        max-width: 90%; /* Ancho máximo más pequeño para ajustar al tamaño de la pantalla */
+        max-width: 90%;
+        /* Ancho máximo más pequeño para ajustar al tamaño de la pantalla */
     }
+
 }
 
 
@@ -146,11 +165,13 @@ text-align: start;
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0);
     padding: 0 20px;
 }
 
-.Bar, .CenterText, .SearchBar {
+.Bar,
+.CenterText,
+.SearchBar {
     display: flex;
     align-items: center;
 }
@@ -160,7 +181,7 @@ text-align: start;
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
- 
+
 }
 
 .CenterText a {
@@ -194,8 +215,8 @@ text-align: start;
 .search-container {
     display: flex;
     align-items: center;
-    background-color: #ffffff; /* Ajusta el color de fondo según sea necesario */
-    border-radius: 25px; /* Bordes redondeados para el contenedor */
+    background-color: #ffffff;
+    border-radius: 25px;
     padding: 5px 10px;
 }
 
@@ -204,7 +225,7 @@ text-align: start;
     border: none;
     right: 0;
     padding: 10px 20px;
-    border-radius: 25px; /* Bordes redondeados para el input */
+    border-radius: 25px;
     margin-right: 10px;
 }
 
@@ -212,7 +233,8 @@ text-align: start;
     color: #aaa;
 }
 
-.search-button, .clear-button {
+.search-button,
+.clear-button {
     border: 2px;
     border-color: #aaa;
     background-color: #ffffff;
@@ -225,49 +247,150 @@ text-align: start;
     cursor: pointer;
 }
 
-.search-button:hover, .clear-button:hover {
+.search-button:hover,
+.clear-button:hover {
     background-color: #673B8D;
-    color: #ffffff; /* Color de fondo al pasar el mouse */
+    color: #ffffff;
 }
 
-/* Asegúrate de que no haya bordes ni contornos cuando se hace foco en los elementos */
-.search-input:focus, .search-button:focus, .clear-button:focus {
+
+.search-input:focus,
+.search-button:focus,
+.clear-button:focus {
     outline: none;
 }
 
-/* Icono de búsqueda usando FontAwesome - asegúrate de incluir FontAwesome en tu HTML */
+
 .search-input {
     background-image: url('../assets/icons/buscar.png');
     background-position: 10px 12px;
     background-repeat: no-repeat;
-    
+
 }
 
-/* Ajustes adicionales para el botón de búsqueda si se quiere incluir el texto 'Search' */
 .search-button::before {
     font-family: 'FontAwesome';
     margin-right: 5px;
 }
 
-.ResultsContainer {
+.aboutRow {
+    background: rgba(0, 0, 0, 0);
+    height: 200px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    padding-left: 20px;
     align-items: center;
-    margin-top: 20px;
+    border-radius: 5px;
+    margin-top: -200px;
+}
+
+.ContainerInputs {
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+}
+
+.ContainerInputs button {
+    width: auto;
+    height: auto;
+    background: #673B8D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ContainerInputs textarea {
+    margin-top: 10px;
+}
+
+.ContainerInputs label {
+    color: #c0baba;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.ContainerInputs input {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ContainerInputs textarea {
+    width: 600px;
+    height: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.aboutRow h1 {
+    color: #ffffff;
+}
+
+.aboutRows {
+    background: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    border-radius: 5px;
+    color: #ffffff;
+    width: auto;
+    display: flex;
+    margin-left: 50px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.abotuColumn button {
+    background-color: #673B8D;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.ResultsContainer {
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .ResultItem {
-justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 700px;
+    height: auto;
+    max-width: 600px;
     margin-bottom: 20px;
     padding: 20px;
     transition: transform 0.2s;
+    display: flex;
 }
 
 .ResultItem:hover {
@@ -275,8 +398,9 @@ justify-content: center;
 }
 
 .ResultItem img {
-    width: "100%";
-    height: 400px;
+    width: 500px;
+    max-height: 400px;
+    min-height: 250px;
     object-fit: cover;
     border-radius: 5px;
     margin-right: 20px;
